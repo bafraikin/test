@@ -45,8 +45,8 @@ spec:
   selector:
     app: will
   ports:
-    - port: 8888
-      nodePort: 31589
+    - port: 8800
+      nodePort: 31590
       targetPort: 8888
       protocol: TCP
 
