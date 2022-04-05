@@ -46,7 +46,7 @@ spec:
     app: will
   ports:
     - port: 8888
-      nodePort: 31588
+      nodePort: 31589
       targetPort: 8888
       protocol: TCP
 
