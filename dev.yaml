@@ -29,7 +29,7 @@ spec:
           # only for minikube, for gke remove this line or set any desired policy
           ports:
             - name: http
-              containerPort: 8890
+              containerPort: 8888
           # Environment variables from configMap, before using this create your config map using
           # kubectl create configmap redishost --from-literal=REDIS_HOST=redis --from-literal=REDIS_PORT=6379
           # for using Cloud memorystore change the REDIS_HOST value to your instance ip
